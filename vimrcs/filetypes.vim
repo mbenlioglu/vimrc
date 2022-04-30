@@ -69,6 +69,7 @@ if exists('$TMUX')
         set term=screen-256color 
     endif
 endif
+autocmd BufRead,BufNewFile *.bash_common set filetype=sh
 
 
 """"""""""""""""""""""""""""""
